@@ -1,0 +1,53 @@
+{
+  "$schema": "https://opencode.ai/config.json",
+  "default_agent": "orchestrator",
+  "instructions": ["AGENTS.md", "INDEX.md", "llms.txt"],
+
+  "skills": {
+    "paths": [".opencode/skills"]
+  },
+
+  "mcp": {
+    "github": {
+      "type": "local",
+      "command": ["node", ".opencode/mcp-server-github.js"],
+      "enabled": true,
+      "description": "GitHub MCP server wrapping gh CLI — create repos, issues, PRs, workflows"
+    }
+  },
+
+  "agent": {
+    "plan": {
+      "mode": "primary",
+      "description": "Plan mode for safe, permission-restricted planning before execution."
+    }
+  },
+
+  "permission": {
+    "edit": "allow",
+    "read": "allow",
+    "glob": "allow",
+    "grep": "allow",
+    "list": "allow",
+    "task": "allow",
+    "todowrite": "allow",
+    "question": "allow",
+    "webfetch": "allow",
+    "websearch": "allow",
+    "bash": {
+      "gh *": "allow",
+      "git *": "allow",
+      "mkdir *": "allow",
+      "cp *": "allow",
+      "mv *": "allow",
+      "scripts/*": "allow",
+      "python3 *": "allow",
+      "node *": "allow",
+      "npm *": "ask",
+      "npx *": "ask",
+      "rm *": "deny",
+      "rmdir *": "deny",
+      "*": "ask"
+    }
+  }
+}

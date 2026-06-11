@@ -1,0 +1,131 @@
+---
+id: "ZS-021-ADR"
+title: "021 adr powersync mobile offline"
+domain: "008-adrs"
+doc-type: "adr"
+entity-type: "decision-record"
+summary: >-
+  ADR-021: PowerSync 1.6.1 as the mobile offline database synchronization engine
+  for the ZarishSphere Platform. Self-hosted, bi-directional SQLite-to-PostgreSQL
+  sync, row-level sync rules, conflict resolution, and Flutter SDK integration.
+version: "1.0.0"
+status: "stable"
+tags:
+  - "adr"
+  - "powersync"
+  - "mobile"
+  - "offline"
+  - "sync"
+  - "flutter"
+  - "sqlite"
+isolation_tier: "platform"
+capabilities:
+  - "agent-skill: parse_021_adr_powersync_mobile_offline"
+audience:
+  - "architect"
+  - "developer"
+last_updated: "2026-06-11"
+---
+
+# ADR-021: PowerSync for Mobile Offline Sync
+## ADR-021: PowerSync 1.6.1 for Mobile Offline Database Synchronization
+### Self-Hosted, Bi-Directional SQLite-to-PostgreSQL Sync, Conflict Resolution
+
+**Document type:** Architecture Decision Record
+**Date:** June 11, 2026
+**Author:** Mohammad Ariful Islam / ZarishSphere Foundation
+**License:** Apache 2.0 (code) · CC BY 4.0 (documentation)
+**Status:** Draft
+
+---
+
+## Decision
+
+Use PowerSync 1.6.1 as the mobile offline database synchronization engine for all ZarishSphere Platform mobile and field applications. PowerSync provides bi-directional synchronization between local SQLite databases on mobile devices (Android/iOS via Flutter's drift library) and the central PostgreSQL 18.4 database. The PowerSync server is self-hosted alongside the ZarishSphere Platform services, providing row-level sync rules, CRDT-based conflict resolution, and incremental sync with no full-table scans. All mobile applications — Community Health Worker app, Clinician app, Supervisor app, Patient Portal — synchronize clinical data through PowerSync.
+
+## Context
+
+ZarishSphere Platform mobile applications operate in environments with unreliable or intermittent connectivity — the defining characteristic of the target deployment contexts:
+
+- **Community Health Workers** conduct household visits in rural areas with no cellular connectivity. A CHW may be offline for 8-12 hours at a time while still needing to register patients, record vitals, assess symptoms, and update patient records.
+- **Clinicians** at rural health posts may have intermittent connectivity via satellite or low-bandwidth cellular. Patient consultations, medication administration, and lab result review must work regardless of connectivity.
+- **Supervisors and program managers** perform field monitoring visits where they need access to aggregate data and individual records without an internet connection.
+- **Plane 0 (air-gapped) and Plane 1 (Raspberry Pi, local network)** deployments have no internet connectivity by design. Mobile devices synchronize with the local server over Wi-Fi when in range.
+
+Key synchronization requirements:
+
+- **Bi-directional sync:** Data created or modified on the mobile device must propagate to the server, and data created on the server (or by other mobile devices) must propagate to the device. Both directions must work independently.
+- **Conflict resolution:** When the same record is modified on two devices while both are offline, the sync engine must detect the conflict and resolve it — either automatically (last-writer-wins, CRDT merge) or manually (present both versions for resolution).
+- **Row-level sync rules:** A CHW should only sync patients in their catchment area. A clinician should only sync patients under their care. A supervisor should sync aggregate data but not individual patient records. Sync rules must be configurable at the row level based on user role, tenant, and organizational hierarchy.
+- **Incremental sync:** After the initial sync, only changed records should be transmitted — no full-table scans or re-downloads. This is critical for low-bandwidth environments.
+- **Offline-first:** The mobile application must be fully functional without connectivity. All reads and writes go to the local SQLite database. Sync is a background process.
+- **Clinical data integrity:** No data may be lost during sync failures. All operations must be idempotent — replaying a sync operation must not create duplicate records.
+
+## Alternatives Considered
+
+- **PowerSync 1.6.1 (self-hosted, chosen):** Purpose-built for SQLite-to-PostgreSQL bi-directional sync. Provides row-level sync rules (SQL WHERE clauses that filter which rows sync to which device), CRDT-based conflict resolution with customizable strategies (last-writer-wins, client-wins, server-wins, manual), incremental sync via change tracking, built-in compression for low-bandwidth environments, and native Flutter SDK (drift integration). Self-hosted server is Apache 2.0 licensed — zero cost, no external dependency. The sync rules engine enables fine-grained data access control consistent with Constitution Law 4 (privacy by architecture) — a CHW can only sync data they are authorized to see.
+
+- **Couchbase Lite:** Mature offline-first mobile database with built-in sync (Couchbase Sync Gateway). Full-text search, conflict resolution, and flexible data model. However: Couchbase Sync Gateway requires Couchbase Server as the backend — adding a second database system to the stack (incompatible with ADR-013's PostgreSQL-primary decision). The document model (not relational) requires data mapping between Couchbase documents and PostgreSQL FHIR resources. Resource footprint is larger than SQLite + PowerSync. Licensing: Couchbase Server is available under BSL — licensing concerns consistent with ADR-006's precautionary principle.
+
+- **MongoDB Realm (now Atlas Device Sync):** Mobile SDK with Atlas-integrated sync, offline-first data model, and conflict resolution. However: Realm was acquired by MongoDB and the licensing and product direction has been in flux — MongoDB Atlas Device Sync requires an Atlas cluster (cloud dependency, vendor lock-in). The SDK has gone through multiple breaking API changes. Realm's object model is not SQL-based — the mobile app would use a different data model than the server's PostgreSQL. Conflicts with ADR-009 (no vendor lock-in) and ADR-006 (zero cost — Atlas has usage-based pricing).
+
+- **Custom sync engine built on NATS + PostgreSQL change tracking:** Build a custom sync engine using PostgreSQL's logical replication, NATS JetStream for message delivery, and application-level conflict resolution. Full control, no third-party dependency, perfect stack integration. However: building a production-grade bi-directional sync engine with conflict resolution, incremental sync, and row-level sync rules is a multi-month engineering effort. The single founder cannot afford to build and maintain a custom sync engine while also building the platform. The risk of subtle data loss bugs in a custom sync engine is unacceptable for clinical data.
+
+- **Manual CSV/JSON export + import:** The simplest offline data transfer mechanism — export data to files on the server, transfer them to the mobile device via USB or SD card (or email), import them into the mobile app, make changes, export back, transfer, and import on server. Used in many humanitarian health deployments today. However: no conflict resolution, no incremental sync, no row-level filtering (all data exported), no real-time or near-real-time synchronization, extremely error-prone, and violates clinical data integrity requirements. Acceptable for Plane 0 paper-trail backups but not as the primary sync mechanism.
+
+## Reason for Decision
+
+1. **Purpose-built for offline-first health deployments:** PowerSync was designed for exactly the ZarishSphere use case — mobile health workers with unreliable connectivity needing to sync clinical data to a PostgreSQL backend. Its feature set (row-level sync rules, incremental sync, CRDT conflict resolution) directly matches the requirements of the target deployment contexts.
+
+2. **PostgreSQL-native:** PowerSync syncs to PostgreSQL directly — no intermediate database, no data model translation. The server-side database remains PostgreSQL (per ADR-013), and the mobile device uses SQLite (which is PostgreSQL-compatible at the SQL level). This avoids the data model fragmentation that alternative sync solutions would introduce.
+
+3. **Self-hosted, zero-cost, vendor-independent:** PowerSync server is Apache 2.0 licensed and fully self-hosted. No cloud dependency, no API key, no usage-based pricing, no credit card required. Runs on the same server as the ZarishSphere Platform services. Fully satisfies ADR-006 (zero-cost toolchain) and ADR-009 (no vendor lock-in).
+
+4. **Row-level sync rules for data privacy:** PowerSync's sync rules (SQL WHERE clauses per table per user role) implement Constitution Law 4 (privacy by architecture) at the data synchronization layer. A CHW's device only contains data for patients in their catchment area — no other patient data is present even if the device is lost or compromised.
+
+5. **Flutter SDK integration:** PowerSync provides a ready Flutter SDK with drift (SQLite ORM) integration. This directly supports ADR-023's decision to use Flutter for cross-platform mobile applications. The sync client is a single dependency — `powersync` Flutter package — reducing integration complexity.
+
+## Consequences
+
+**Positive:**
+- Mobile applications work fully offline — all reads and writes hit local SQLite
+- Bi-directional sync with PostgreSQL — no database fragmentation
+- Row-level sync rules enforce data privacy at the sync layer (Constitution Law 4)
+- CRDT-based conflict resolution prevents data loss from concurrent offline edits
+- Incremental sync minimizes bandwidth usage — only changed rows transmitted
+- Self-hosted server — zero cost, no external cloud dependency
+- Flutter SDK with drift integration — direct support for ADR-023
+- Compression for low-bandwidth environments (satellite, 2G networks)
+- Idempotent operations — safe to replay failed syncs
+
+**Negative:**
+- PowerSync server adds another service to deploy and maintain alongside the platform
+- Sync rule configuration requires careful SQL — incorrect rules can leak data or block legitimate access
+- CRDT merge strategies may not be suitable for all clinical data types — some conflicts require manual resolution (e.g., medication dosage changes)
+- Initial sync of large datasets over low-bandwidth connections can be slow — requires progress tracking and resume capability
+- PowerSync's feature set is evolving — some capabilities (e.g., selective sync of JSONB sub-fields) may require future PowerSync versions
+- Dependency on a specific third-party sync engine — if PowerSync were to change licensing or discontinue the self-hosted option, migration to an alternative sync engine would be complex
+- Not suitable for real-time collaborative editing — sync latency is seconds to minutes, not milliseconds
+
+## Status
+
+Accepted. PowerSync 1.6.1 (self-hosted) is the mobile offline sync engine for all ZarishSphere Platform mobile and field applications. All mobile applications using Flutter (ADR-023) synchronize through PowerSync. The PowerSync server is deployed alongside the platform services and configured with row-level sync rules per domain module. Plane 0 deployments may use alternative sync mechanisms (manual export/import, Wi-Fi direct sync) with documented procedures.
+
+---
+
+## Cross-references
+
+→ **001-meta/001-zarishsphere-constitution.md** — Law 4 (privacy by architecture), Law 5 (zero cost), Law 8 (plane sovereignty), Law 9 (vendor freedom)
+→ **006-adr-zero-cost-toolchain.md** — ADR-006: PowerSync is self-hosted, Apache 2.0
+→ **009-adr-no-vendor-lock-in.md** — ADR-009: Self-hosted, no cloud dependency
+→ **013-adr-postgresql-primary-database.md** — ADR-013: PostgreSQL as sync target
+→ **023-adr-flutter-cross-platform-mobile.md** — ADR-023: Flutter mobile with PowerSync SDK
+→ **007-tech-stack/004-data-pipeline.md** — Data pipeline and sync architecture
+→ **010-ecosystem/018-home-spec.md** — Mobile app specifications
+
+---
+
+
+*ZarishSphere Foundation · V1 · June 11, 2026*
+*License: Apache 2.0 (code) · CC BY 4.0 (documentation)*
+*GitHub: https://github.com/zarishsphere*

@@ -1,0 +1,183 @@
+---
+id: "ZS-001-FOU"
+title: "001 foundation charter"
+domain: "002-foundation"
+doc-type: "charter"
+summary: >-
+  Founding charter of the ZarishSphere Foundation. Defines the institution's
+  mission, scope, obligations, and constitutional relationship to all four
+  projects: ZarishSphere Platform, ZARISH-INDEX, ZARISH-STANDARDS, and the
+  Ecosystem Components.
+tags:
+  - foundation
+  - charter
+  - governance
+  - mission
+  - scope
+entity-type: "charter"
+version: "1.0.0"
+status: "stable"
+last_updated: 2026-06-10
+last_verified: 2026-06-10
+verified_by: "Mohammad Ariful Islam"
+next_review: 2026-12-10
+isolation_tier: "global"
+canonical: true
+depends_on:
+  - "ZS-001-ZAR"
+related:
+  - "ZS-002-ZAR"
+  - "ZS-002-GOV"
+  - "ZS-003-LIC"
+  - "ZS-004-CON"
+  - "ZS-005-ECO"
+capabilities:
+  - agent-skill: "parse_001_foundation_charter"
+  - mcp-resource: "foundation_charter"
+audience:
+  - "contributors"
+  - "ai-agents"
+  - "deployers"
+---
+
+# 001-foundation-charter.md
+## ZarishSphere Foundation charter
+### Mission, scope, obligations, and project relationships
+
+**Document type:** Charter
+**Date:** June 10, 2026
+**Author:** Mohammad Ariful Islam / ZarishSphere Foundation
+**License:** CC BY 4.0
+**Status:** V1
+**GitHub:** https://github.com/zarishsphere
+**Depends on:** `001-zarishsphere-constitution.md`
+
+---
+
+## Table of contents
+
+1. [Purpose of this charter](#1-purpose-of-this-charter)
+2. [Foundation mission](#2-foundation-mission)
+3. [Scope of authority](#3-scope-of-authority)
+4. [Obligations](#4-obligations)
+5. [Relationship to the four projects](#5-relationship-to-the-four-projects)
+6. [Relationship to other ecosystem components](#6-relationship-to-other-ecosystem-components)
+7. [Perpetuity and dissolution](#7-perpetuity-and-dissolution)
+8. [Charter amendments](#8-charter-amendments)
+9. [Cross-references](#9-cross-references)
+
+---
+
+## 1. Purpose of this charter
+
+This charter establishes the ZarishSphere Foundation as the governing institution for the ZarishSphere ecosystem. It defines:
+
+- What the Foundation is and what it exists to do
+- The scope and limits of its authority over each project
+- Its binding obligations to deployers, contributors, and the public
+- The constitutional relationship between the Foundation and the four core projects
+
+This charter is subordinate to the constitution (`001-zarishsphere-constitution.md`). Where this charter conflicts with the constitution, the constitution governs.
+
+## 2. Foundation mission
+
+The ZarishSphere Foundation exists to build, maintain, and govern a single integrated ecosystem that:
+
+1. Indexes every global standard across every domain of human civilization
+2. Transforms indexed standards into executable digital assets
+3. Makes those assets deployable and usable at zero cost by anyone with a browser
+4. Provides the complete toolchain — console, marketplace, builder, apps, forms, SDK, CLI, API, services, modules, distributions, engine, system — to enable universal access
+
+The Foundation is not a software vendor, consulting firm, hosted-service provider, or data broker. It is a public infrastructure institution.
+
+## 3. Scope of authority
+
+### 3.1 What the Foundation governs
+
+| Domain | Authority level |
+|---|---|
+| Constitution and ZUSS standard | Supreme — binding on all projects |
+| ZARISH-INDEX schema and quality | Editorial — sets rules, does not curate |
+| ZARISH-STANDARDS transformation rules | Editorial — defines the pipeline, not the outputs |
+| ZarishSphere Platform architecture | Technical — sets constraints, not implementation |
+| Ecosystem component specifications | Technical — defines interfaces, not internals |
+| Licensing and IP | Absolute — all projects comply |
+| Repository organisation | Administrative — owns the GitHub org |
+
+### 3.2 What the Foundation does not govern
+
+- The content of any indexed standard (that belongs to the standards body)
+- How any deployer configures their deployment
+- What data any deployer collects through the platform
+- How any contributor structures their contributions (within ZUSS bounds)
+
+## 4. Obligations
+
+The Foundation has the following binding obligations:
+
+| Obligation | Source | Description |
+|---|---|---|
+| Permanent zero cost | Law 5 | No ecosystem component may ever carry a price tag |
+| No-code accessibility | Law 6 | Every capability must be operable via GUI |
+| Plane 0 compliance | Law 4 | Every component must function on a 4 GB air-gapped device |
+| Data portability | Law 8 | Every deployer can export all data at any time |
+| Documentation first | Law 2 | Every component is documented before its first commit |
+| GitHub transparency | Law 1 | Every governance decision is a public commit |
+| No vendor lock-in | Law 9 | No dependency that cannot be replaced in 90 days |
+| Emergency key destruction | Law 4 | Ability to render records unrecoverable in 60 seconds |
+
+## 5. Relationship to the four projects
+
+The Foundation maintains four distinct but interdependent projects:
+
+### 5.1 ZarishSphere Platform
+
+The deployable infrastructure. The Foundation sets the architectural constraints (Go-native, Plane 0-compatible, no-code interface), publishes the specifications, and maintains the canonical documentation. Implementation is the Foundation's responsibility until the community grows large enough to share it.
+
+### 5.2 ZARISH-INDEX
+
+An autonomous open research data product. The Foundation sets the metadata schema (`ZI-[DOMAIN]-[NNNNN]`), the domain taxonomy, and the quality standards. The actual indexing work is an ongoing research activity led by the founder.
+
+### 5.3 ZARISH-STANDARDS
+
+A standards classification and transformation system. The Foundation defines the transformation model, the G2A pipeline interfaces, and the output schema. The Foundation does not create or modify the content of any standard — it only transforms what standards bodies publish.
+
+### 5.4 Ecosystem components
+
+The complete suite of user-facing and developer-facing tools (Console, Marketplace, Builder, Apps, Forms, SDK, CLI, API, Services, Modules, Distributions, Engine, System). The Foundation specifies, builds, and maintains all components. Each component has its own specification document in `zs-docs/010-ecosystem/`.
+
+## 6. Relationship to other ecosystem components
+
+The Foundation maintains the specifications and canonical implementations for all 13 ecosystem components documented in `010-ecosystem/`. Each component specification is a binding contract between the Foundation and any implementer — whether the Foundation itself or a future community contributor.
+
+Component specifications are written in ZUSS format with standard front matter, numbered sections, and cross-references to related components.
+
+## 7. Perpetuity and dissolution
+
+### 7.1 Perpetuity intent
+
+The ZarishSphere Foundation is designed to outlast its founder. All assets — repositories, documentation, domains, configurations — are structured so they can be transferred to a community governance body if the founder can no longer maintain them.
+
+### 7.2 Dissipation
+
+The only acceptable form of dissolution is the transfer of all Foundation assets to a non-profit entity with a mission identical to the Foundation's. No Foundation asset may ever be transferred to a for-profit entity, sold, or monetized in any form. This provision is irrevocable.
+
+## 8. Charter amendments
+
+Amendments to this charter follow the constitutional amendment process defined in `001-zarishsphere-constitution.md` §10. All amendments are recorded as ADRs in `008-adrs/` and committed to the repository.
+
+## 9. Cross-references
+
+→ **001-meta/001-zarishsphere-constitution.md** — Supreme governing document, 12 laws
+→ **001-meta/002-zarishsphere-profile.md** — Foundation identity, vision, and operating constraints
+→ **002-governance-model.md** — Decision-making model for the Foundation
+→ **003-licensing-policy.md** — Dual licensing: Apache 2.0 and CC BY 4.0
+→ **004-contributor-guidelines.md** — How anyone can contribute to any project
+→ **001-meta/005-ecosystem-architecture.md** — Complete ecosystem map
+
+---
+
+
+*ZarishSphere Foundation · V1 · June 11, 2026*
+*License: Apache 2.0 (code) · CC BY 4.0 (documentation)*
+*GitHub: https://github.com/zarishsphere*

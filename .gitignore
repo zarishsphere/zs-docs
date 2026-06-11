@@ -1,0 +1,20 @@
+# ZarishSphere zs-docs root .gitignore
+
+# Transient session logs
+session-*.md
+ses_*.md
+
+# OS files
+.DS_Store
+*~
+.swp
+.swo
+
+# Editor/IDE
+.vscode/
+.idea/
+*.sublime-*
+
+# Python bytecode
+__pycache__/
+*.pyc
