@@ -114,13 +114,6 @@ Accepted. IBM Carbon Design System 1.82.1 is the primary UI component library fo
 
 ## Cross-references
 
-→ **001-meta/001-zarishsphere-constitution.md** — Law 5 (zero cost), Law 6 (no-code first/accessibility), Law 9 (vendor freedom)
-→ **006-adr-zero-cost-toolchain.md** — ADR-006: Carbon is Apache 2.0, zero-cost
-→ **010-adr-gui-first-ux.md** — ADR-010: GUI-first UX design philosophy
-→ **020-adr-microfrontend-architecture.md** — ADR-020: Carbon components in microfrontend shells
-→ **007-tech-stack/003-frontend-stack.md** — Frontend technology stack
-→ **010-ecosystem/001-console-spec.md** — Console specification (uses Carbon)
-→ **010-ecosystem/002-marketplace-spec.md** — Marketplace specification (uses Carbon)
 
 ---
 

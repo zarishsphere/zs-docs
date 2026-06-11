@@ -280,8 +280,6 @@ python3 tests/validate_forms.py
 
 ## Cross-references
 
-→ **010-ecosystem/005-forms-spec.md** — Forms engine component specification
-→ **010-ecosystem/014-content-forms-spec.md** — Forms content repository
 
 ---
 

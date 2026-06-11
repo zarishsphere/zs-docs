@@ -307,8 +307,6 @@ Use FHIR R5 `issue-type` codes from `http://hl7.org/fhir/ValueSet/issue-type`. C
 
 ## Cross-references
 
-→ **003-platform/005-fhir-architecture.md** — Platform-level FHIR architecture
-→ **008-adrs/005-adr-fhir-r5-over-r4.md** — Decision record for FHIR R5 as canonical version
 
 ---
 

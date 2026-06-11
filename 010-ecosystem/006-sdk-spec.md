@@ -97,7 +97,7 @@ No ecosystem function requires SDK usage. Everything achievable through the SDK 
 
 The SDK follows a layered architecture pattern consistent across all three language implementations:
 
-- **Transport layer** — HTTP client with configurable timeout, retry, and TLS settings. Wraps all REST and GraphQL endpoints defined in → **008-api-spec.md**.
+- **Transport layer** — HTTP client with configurable timeout, retry, and TLS settings. Wraps all REST and GraphQL endpoints defined in → **[008-api-spec.md](008-api-spec.md)**.
 - **Authentication layer** — Pluggable auth providers: OAuth2 client credentials, JWT bearer tokens, API key headers. Token refresh and caching are handled automatically.
 - **Client layer** — Language-specific client objects (e.g., `zs.NewClient()`, `new ZarishSphereClient()`) that expose typed methods for every API operation.
 - **Domain models** — Shared data structures (FHIR Resources, ModuleConfig, FormDefinition) serialized to/from JSON. Go uses typed structs, JavaScript uses TypeScript interfaces, Python uses dataclasses.
@@ -398,7 +398,7 @@ Mock services simulate all API endpoints without requiring a live ZarishSphere d
 
 ## 11. Versioning policy
 
-- **Semantic Versioning 2.0** — all SDK packages follow `MAJOR.MINOR.PATCH` versioning as defined in → **002-foundation/003-licensing-policy.md**.
+- **Semantic Versioning 2.0** — all SDK packages follow `MAJOR.MINOR.PATCH` versioning as defined in → **[002-foundation/003-licensing-policy.md](002-foundation/003-licensing-policy.md)**.
 - **Major version** — breaking changes to public API surface. Client code requires migration.
 - **Minor version** — additive features and deprecation warnings. Backward compatible.
 - **Patch version** — bug fixes, security patches, documentation improvements.
@@ -409,13 +409,6 @@ Mock services simulate all API endpoints without requiring a live ZarishSphere d
 
 ## 12. Cross-references
 
-→ **007-cli-spec.md** — CLI as companion to SDK
-→ **008-api-spec.md** — APIs the SDK wraps
-→ **005-forms-spec.md** — Form helpers in SDK reference form engine
-→ **001-meta/001-zarishsphere-constitution.md** — Law 6 (GUI-first, CLI/SDK secondary)
-→ **002-foundation/003-licensing-policy.md** — Licensing and versioning policy
-→ **003-platform/006-api-design.md** — API contracts that SDK implements
-→ **003-platform/003-deployment-planes.md** — Plane-specific SDK behaviour
 
 ---
 

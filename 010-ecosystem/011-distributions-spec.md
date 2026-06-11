@@ -174,7 +174,7 @@ spec:
 
 Distributions deploy from the Marketplace in one click:
 
-1. User selects a distribution in the → **002-marketplace-spec.md**
+1. User selects a distribution in the → **[002-marketplace-spec.md](002-marketplace-spec.md)**
 2. Console downloads the archive from the content repository
 3. Archive integrity verified against `checksums.sha256` and `signature.asc`
 4. Dependencies checked against available modules and services
@@ -271,7 +271,7 @@ Each distribution includes plane-aware configurations that adjust the deployment
 - **UI:** Full Console with multi-tenant isolation
 - **Hardware:** Elastic, auto-scaling
 
-Detailed plane specifications are in → **003-platform/003-deployment-planes.md**.
+Detailed plane specifications are in → **[003-platform/003-deployment-planes.md](003-platform/003-deployment-planes.md)**.
 
 ## 7. Version pinning and signing
 
@@ -434,14 +434,6 @@ Distributions may also include:
 
 ## 10. Cross-references
 
-→ **010-modules-spec.md** — Modules bundled in distributions
-→ **004-apps-spec.md** — Apps included in distributions
-→ **002-marketplace-spec.md** — Distribution discovery in Marketplace
-→ **003-platform/003-deployment-planes.md** — Plane specifications and optimizations
-→ **001-console-spec.md** — Console-based deployment management
-→ **007-cli-spec.md** — CLI deployment commands
-→ **003-platform/002-module-architecture.md** — Module structure within distributions
-→ **001-meta/001-zarishsphere-constitution.md** — Law 6 (GUI-first) and Law 7 (module sovereignty)
 
 ---
 

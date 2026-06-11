@@ -415,18 +415,6 @@ All write operations are logged to the FHIR audit event model:
 
 ## 9. Cross-references
 
-→ **001-tech-stack-master.md** — Master tech stack with Go and SQLite rationale
-→ **003-platform/005-fhir-architecture.md** — FHIR R5 integration architecture
-→ **003-platform/007-data-model.md** — ZS-UID and core data entities
-→ **003-platform/006-api-design.md** — API contracts and FHIR endpoints
-→ **008-adrs/004-adr-no-hapi-fhir.md** — ADR for rejecting HAPI FHIR
-→ **008-adrs/005-adr-fhir-r5-over-r4.md** — ADR for FHIR R5 enforcement
-→ **008-adrs/001-adr-go-as-primary-language.md** — ADR for Go language
-→ **001-meta/001-zarishsphere-constitution.md** — Law 7 (data sovereignty), Law 11 (no JVM)
-→ **010-ecosystem/012-engine-spec.md** — Engine integration with FHIR server
-→ **010-ecosystem/008-api-spec.md** — API specification for ecosystem
-→ **004-data-pipeline.md** — Data export from FHIR to analytics formats
-→ **006-infrastructure/003-cloudflare-architecture.md** — Cloudflare D1 edge cache for FHIR reads
 
 ---
 

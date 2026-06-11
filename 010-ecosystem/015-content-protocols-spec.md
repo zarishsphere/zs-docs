@@ -316,12 +316,6 @@ At Plane 0, protocols ship as pre-loaded bundles:
 
 ## 7. Cross-references
 
-→ **003-platform/004-g2a-engine.md** — G2A Engine that consumes protocols
-→ **005-zarish-standards/002-transformation-model.md** — Standards-to-protocol transformation
-→ **010-modules-spec.md** — Modules that define protocol-dependent features
-→ **003-platform/003-deployment-planes.md** — Plane specifications for protocol deployment
-→ **003-platform/005-fhir-architecture.md** — FHIR PlanDefinition resource alignment
-→ **001-meta/001-zarishsphere-constitution.md** — Law 3 (every standard is executable)
 
 ---
 

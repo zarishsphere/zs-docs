@@ -109,12 +109,6 @@ Accepted. Valkey 9.0.3 is the in-memory caching layer for all ZarishSphere Platf
 
 ## Cross-references
 
-→ **001-meta/001-zarishsphere-constitution.md** — Law 5 (zero cost), Law 9 (vendor freedom), Law 11 (longevity)
-→ **006-adr-zero-cost-toolchain.md** — ADR-006: Zero-cost compliance
-→ **009-adr-no-vendor-lock-in.md** — ADR-009: Vendor independence
-→ **013-adr-postgresql-primary-database.md** — ADR-013: PostgreSQL for persistent storage, Valkey for cache
-→ **014-adr-nats-jetstream-messaging.md** — ADR-014: NATS for messaging, Valkey for job queues
-→ **007-tech-stack/001-tech-stack-master.md** — Master technology stack mapping
 
 ---
 

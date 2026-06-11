@@ -147,11 +147,6 @@ All FHIR operations work offline at Plane 0 and Plane 1:
 
 ## 8. Cross-references
 
-→ **001-platform-overview.md** — Platform architecture context
-→ **007-data-model.md** — ZS-UID and core data entities
-→ **006-api-design.md** — API contracts and FHIR endpoints
-→ **001-meta/001-zarishsphere-constitution.md** — Law 11 (no JVM dependencies)
-→ **008-adrs/001-adr-go-as-primary-language.md** — ADR for Go-native decision
 
 ---
 

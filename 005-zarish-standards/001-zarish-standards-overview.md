@@ -17,7 +17,7 @@ tags:
   - "standards-registry"
 isolation_tier: "global"
 capabilities:
-  - "agent-skill: "parse_001_zarish_standards_overview"
+  - "agent-skill: parse_001_zarish_standards_overview"
 audience:
   - "contributors"
   - "deployers"
@@ -520,8 +520,6 @@ When ZARISH-INDEX publishes a new release, the consuming module `zs-module-zaris
 
 *GitHub: https://github.com/zarishsphere/zs-module-zarish-standards*
 
-→ **004-zarish-index/001-zarish-index-overview.md** — Full research project plan for the upstream ZARISH-INDEX
-→ **001-meta/005-ecosystem-architecture.md** — Platform architecture, G2A engine, deployment model, and roadmap
 
 ---
 

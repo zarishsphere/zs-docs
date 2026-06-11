@@ -549,16 +549,6 @@ Bridges to partner systems, legacy platforms, and interoperability standards.
 
 ## 15. Cross-references
 
-→ **001-platform-overview.md** — Platform architecture context and system boundaries
-→ **003-deployment-planes.md** — Deployment plane model that determines which repos are deployed
-→ **002-module-architecture.md** — Module sovereignty rules for Layer 6 content
-→ **001-meta/005-ecosystem-architecture.md** — Ecosystem component map and repo relationships
-→ **006-infrastructure/002-github-org-architecture.md** — GitHub organisation configuration
-→ **006-infrastructure/006-ci-cd-architecture.md** — CI/CD pipeline that deploys these repositories
-→ **010-ecosystem/010-modules-spec.md** — Module ecosystem component specification
-→ **010-ecosystem/011-distributions-spec.md** — Distribution layer component specification
-→ **007-tech-stack/001-tech-stack-master.md** — Technology stack used across all repositories
-→ **001-meta/004-writing-rules.md** — ZUSS naming conventions applied to repo naming
 
 ---
 

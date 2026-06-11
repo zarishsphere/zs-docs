@@ -126,13 +126,6 @@ Accepted. This ADR implements Constitution Law 4 (Identity without surveillance)
 
 ## Cross-references
 
-→ **001-meta/001-zarishsphere-constitution.md** — Law 4 (Identity without surveillance)
-→ **003-platform/003-deployment-planes.md** — Plane 0 isolation architecture and air-gapped deployment
-→ **010-ecosystem/013-system-spec.md** — IAM, encryption, audit infrastructure
-→ **010-ecosystem/009-services-spec.md** — Identity and audit services (consent tracking, audit trail)
-→ **010-ecosystem/005-forms-spec.md** — Consent forms as FHIR R5 Questionnaire resources
-→ **009-adr-no-vendor-lock-in.md** — ADR-009: Vendor lock-in prohibition reinforces local data sovereignty
-→ **010-adr-gui-first-ux.md** — ADR-010: GUI-first UX for consent management interfaces
 
 ---
 

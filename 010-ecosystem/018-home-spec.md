@@ -229,13 +229,6 @@ However, the **content** published on the Home site (documentation, download lin
 
 ## 8. Cross-references
 
-→ **001-console-spec.md** — Console that Home links to
-→ **002-marketplace-spec.md** — Marketplace that Home promotes
-→ **003-platform/003-deployment-planes.md** — Plane architecture
-→ **006-infrastructure/003-cloudflare-architecture.md** — Cloudflare Pages hosting
-→ **006-infrastructure/004-domain-architecture.md** — Domain routing for zarishsphere.com
-→ **006-infrastructure/006-ci-cd-architecture.md** — Build and deploy pipeline
-→ **001-meta/001-zarishsphere-constitution.md** — Law 2 (open-source, free)
 
 ---
 

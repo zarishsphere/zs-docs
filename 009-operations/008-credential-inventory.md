@@ -14,7 +14,7 @@ tags:
   - "succession"
 isolation_tier: "global"
 capabilities:
-  - "agent-skill: "parse_credential_inventory"
+  - "agent-skill: parse_credential_inventory"
 audience:
   - "maintainers"
   - "deployers"

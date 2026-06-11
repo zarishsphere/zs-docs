@@ -106,7 +106,7 @@ The CLI is built using the Go ecosystem's standard toolchain:
 
 - **Cobra** — command tree and flag parsing (github.com/spf13/cobra)
 - **Viper** — configuration management (github.com/spf13/viper)
-- **Go SDK** — all CLI commands delegate to the Go SDK's client library as defined in → **006-sdk-spec.md**
+- **Go SDK** — all CLI commands delegate to the Go SDK's client library as defined in → **[006-sdk-spec.md](006-sdk-spec.md)**
 
 Command tree structure:
 
@@ -350,12 +350,6 @@ When the CLI receives a 429 response, it logs a warning and waits for the `Retry
 
 ## 13. Cross-references
 
-→ **006-sdk-spec.md** — SDK as source for CLI tools
-→ **008-api-spec.md** — APIs the CLI consumes
-→ **001-meta/001-zarishsphere-constitution.md** — Law 6 (GUI-first)
-→ **003-platform/006-api-design.md** — API contracts the CLI consumes
-→ **003-platform/003-deployment-planes.md** — Plane awareness in CLI commands
-→ **009-operations/001-sop-new-document-creation.md** — CLI-first automation patterns
 
 ---
 

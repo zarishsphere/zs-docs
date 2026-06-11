@@ -121,14 +121,6 @@ Accepted. Flutter 3.29.2 (Dart 3.7.2) is the mobile application framework for al
 
 ## Cross-references
 
-→ **001-meta/001-zarishsphere-constitution.md** — Law 5 (zero cost), Law 6 (no-code first — mobile accessibility), Law 8 (plane sovereignty), Law 11 (longevity)
-→ **006-adr-zero-cost-toolchain.md** — ADR-006: Flutter is BSD-3, zero-cost
-→ **019-adr-carbon-design-system.md** — ADR-019: Carbon DS adapted for Flutter mobile
-→ **020-adr-microfrontend-architecture.md** — ADR-020: Mobile apps as standalone microfrontends
-→ **021-adr-powersync-mobile-offline.md** — ADR-021: PowerSync for offline data sync
-→ **022-adr-typescript-strict-mode.md** — ADR-022: TypeScript on web, Dart on mobile (both strict)
-→ **010-ecosystem/005-forms-spec.md** — Forms engine (shared between web and mobile)
-→ **007-tech-stack/001-tech-stack-master.md** — Master technology stack mapping
 
 ---
 

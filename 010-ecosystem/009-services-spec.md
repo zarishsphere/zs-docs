@@ -130,7 +130,7 @@ All services share a common architecture base:
 | HTTP REST | JSON/HTTPS | External API consumption (SDK, CLI, webhooks) |
 | File-based | Local filesystem | Plane 0 fallback for all patterns |
 
-**Technology base:** All services are written in Go 1.22+ with shared libraries from → **012-engine-spec.md**. PostgreSQL is the primary database at Planes 1-4. SQLite is used at Plane 0. NATS JetStream provides message queuing at Planes 2-4.
+**Technology base:** All services are written in Go 1.22+ with shared libraries from → **[012-engine-spec.md](012-engine-spec.md)**. PostgreSQL is the primary database at Planes 1-4. SQLite is used at Plane 0. NATS JetStream provides message queuing at Planes 2-4.
 
 ## 6. Service registry and discovery
 
@@ -284,7 +284,7 @@ body: |
   Status: {{.Status}}
 ```
 
-Templates are versioned and managed through → **005-forms-spec.md** conventions.
+Templates are versioned and managed through → **[005-forms-spec.md](005-forms-spec.md)** conventions.
 
 ### Delivery guarantees
 
@@ -437,16 +437,10 @@ zs_request_duration_seconds_bucket{le="1"} 15200
 zs_request_duration_seconds_bucket{le="+Inf"} 15234
 ```
 
-All endpoints are defined in → **008-api-spec.md** and follow the → **003-platform/006-api-design.md** conventions.
+All endpoints are defined in → **[008-api-spec.md](008-api-spec.md)** and follow the → **[003-platform/006-api-design.md](003-platform/006-api-design.md)** conventions.
 
 ## 14. Cross-references
 
-→ **008-api-spec.md** — APIs that services expose
-→ **013-system-spec.md** — System layer that services depend on
-→ **012-engine-spec.md** — Engine that services support
-→ **003-platform/003-deployment-planes.md** — How services adapt to each plane
-→ **003-platform/006-api-design.md** — API design conventions for service endpoints
-→ **001-meta/001-zarishsphere-constitution.md** — Law 7 (module sovereignty) and Law 11 (privacy by architecture)
 
 ---
 

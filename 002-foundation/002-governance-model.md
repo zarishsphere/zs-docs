@@ -169,13 +169,6 @@ No dispute is resolved outside of public GitHub repositories. Private resolution
 
 ## 7. Cross-references
 
-→ **001-foundation-charter.md** — Foundation mission, scope, obligations
-→ **003-licensing-policy.md** — Dual licensing: Apache 2.0 and CC BY 4.0
-→ **004-contributor-guidelines.md** — How anyone can contribute to any project
-→ **001-meta/001-zarishsphere-constitution.md** §10 — Amendment process
-→ **001-meta/004-writing-rules.md** §7.1 — ADR format
-→ **001-meta/004-writing-rules.md** §7.4 — RFC format
-→ **001-meta/007-agent-ecosystem-strategy.md** — AI agent governance considerations
 
 ---
 

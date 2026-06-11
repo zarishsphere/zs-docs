@@ -175,17 +175,6 @@ All versions pinned. No `latest` tag in any production or pinned configuration.
 
 ## 7. Cross-references
 
-→ **002-module-architecture.md** — Module sovereignty and independence rules
-→ **003-deployment-planes.md** — Detailed plane specifications and constraints
-→ **004-g2a-engine.md** — Guideline-to-Action Engine specification
-→ **005-fhir-architecture.md** — FHIR R5 integration architecture
-→ **006-api-design.md** — API contracts and versioning
-→ **007-data-model.md** — Core data entities and ZS-UID patterns
-→ **008-domain-registry.md** — All 40 domains
-→ **001-meta/001-zarishsphere-constitution.md** — Laws governing platform architecture
-→ **001-meta/005-ecosystem-architecture.md** — Ecosystem component map
-→ **002-foundation/001-foundation-charter.md** — Foundation obligations
-→ **010-ecosystem/INDEX.md*** — Individual component specifications
 
 ---
 

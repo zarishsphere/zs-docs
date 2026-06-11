@@ -25,7 +25,7 @@ If you are an AI agent, a contributor, or a new reader: start with **[INDEX.md](
 ## Repository structure
 
 | Folder | Documents | Purpose | Status |
-|---|---|---|---|---|---|
+|---|---|---|---|
 | [001-meta/](001-meta/INDEX.md) | 7 | Foundation constitution, architecture, writing rules, glossary, agent strategy | ✅ 7 stable |
 | [002-foundation/](002-foundation/INDEX.md) | 5 | Charter, governance model, licensing, contributor guidelines, CAMM | ✅ 5 stable |
 | [003-platform/](003-platform/INDEX.md) | 10 | Platform architecture, modules, deployment, G2A, FHIR, API, data, domains, catalog, resource map | ✅ 10 stable |

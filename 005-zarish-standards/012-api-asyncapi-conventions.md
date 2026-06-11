@@ -322,8 +322,6 @@ nats stream add zs-fhir \
 
 ## Cross-references
 
-→ **003-platform/006-api-design.md** — Platform-level API design principles
-→ **010-ecosystem/009-services-spec.md** — Platform services and event-driven architecture
 
 ---
 

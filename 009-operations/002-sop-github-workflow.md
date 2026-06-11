@@ -17,7 +17,7 @@ tags:
   - "workflow"
 isolation_tier: "global"
 capabilities:
-  - "agent-skill: "parse_002_sop_github_workflow"
+  - "agent-skill: parse_002_sop_github_workflow"
 audience:
   - "contributors"
   - "deployers"

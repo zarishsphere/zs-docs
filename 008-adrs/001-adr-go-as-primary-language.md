@@ -107,10 +107,6 @@ Accepted. This decision is foundational — all subsequent ADRs (especially ADR-
 
 ## Cross-references
 
-→ **001-meta/001-zarishsphere-constitution.md** — Law 11 (platform outlives its creators), Law 5 (zero-cost guarantee)
-→ **001-meta/003-founder-profile.md** — §4.1: 8 GB RAM constraint, §2.4: Go at reading level
-→ **003-platform/001-platform-overview.md** — Platform architecture overview
-→ **007-tech-stack/002-go-fhir-server.md** — Go FHIR server specification
 
 ---
 

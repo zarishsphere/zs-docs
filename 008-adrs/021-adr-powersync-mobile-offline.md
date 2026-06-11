@@ -115,13 +115,6 @@ Accepted. PowerSync 1.6.1 (self-hosted) is the mobile offline sync engine for al
 
 ## Cross-references
 
-→ **001-meta/001-zarishsphere-constitution.md** — Law 4 (privacy by architecture), Law 5 (zero cost), Law 8 (plane sovereignty), Law 9 (vendor freedom)
-→ **006-adr-zero-cost-toolchain.md** — ADR-006: PowerSync is self-hosted, Apache 2.0
-→ **009-adr-no-vendor-lock-in.md** — ADR-009: Self-hosted, no cloud dependency
-→ **013-adr-postgresql-primary-database.md** — ADR-013: PostgreSQL as sync target
-→ **023-adr-flutter-cross-platform-mobile.md** — ADR-023: Flutter mobile with PowerSync SDK
-→ **007-tech-stack/004-data-pipeline.md** — Data pipeline and sync architecture
-→ **010-ecosystem/018-home-spec.md** — Mobile app specifications
 
 ---
 

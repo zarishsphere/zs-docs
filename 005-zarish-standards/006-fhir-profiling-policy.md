@@ -246,10 +246,6 @@ java -jar validator_cli.jar \
 
 ## Cross-references
 
-→ **003-platform/005-fhir-architecture.md** — Platform-level FHIR architecture
-→ **007-tech-stack/002-go-fhir-server.md** — Go-native FHIR server implementation
-→ **008-adrs/004-adr-no-hapi-fhir.md** — Decision to build Go-native FHIR (no HAPI)
-→ **008-adrs/005-adr-fhir-r5-over-r4.md** — FHIR R5 as canonical version
 
 ---
 

@@ -564,26 +564,6 @@ Every tool listed in this catalog satisfies the zero-cost requirement of ADR-006
 
 ## 17. Cross-references
 
-→ **003-platform/005-fhir-architecture.md** — FHIR R5 integration architecture
-→ **008-adrs/001-adr-go-as-primary-language.md** — ADR-001: Go as primary language
-→ **008-adrs/004-adr-no-hapi-fhir.md** — ADR-004: Rejection of Java HAPI FHIR
-→ **008-adrs/005-adr-fhir-r5-over-r4.md** — ADR-005: FHIR R5 enforcement
-→ **008-adrs/006-adr-zero-cost-toolchain.md** — ADR-006: Zero-cost toolchain requirement
-→ **008-adrs/013-adr-postgresql-primary-database.md** — ADR-013: PostgreSQL 18
-→ **008-adrs/014-adr-nats-jetstream-messaging.md** — ADR-014: NATS JetStream messaging
-→ **008-adrs/015-adr-valkey-for-caching.md** — ADR-015: Valkey for caching
-→ **008-adrs/016-adr-opentofu-infrastructure-as-code.md** — ADR-016: OpenTofu IaC
-→ **008-adrs/017-adr-argocd-gitops.md** — ADR-017: Argo CD GitOps
-→ **008-adrs/018-adr-cilium-service-mesh.md** — ADR-018: Cilium service mesh
-→ **008-adrs/019-adr-carbon-design-system.md** — ADR-019: Carbon Design System
-→ **008-adrs/020-adr-microfrontend-architecture.md** — ADR-020: Microfrontend architecture
-→ **008-adrs/021-adr-powersync-mobile-offline.md** — ADR-021: PowerSync mobile offline
-→ **008-adrs/022-adr-typescript-strict-mode.md** — ADR-022: TypeScript strict mode
-→ **008-adrs/023-adr-flutter-cross-platform-mobile.md** — ADR-023: Flutter cross-platform
-→ **001-meta/001-zarishsphere-constitution.md** — Law 11 (no JVM dependency)
-→ **001-meta/006-glossary.md** — Canonical definitions for ZarishSphere terms
-→ **006-infrastructure/003-cloudflare-architecture.md** — Cloudflare infrastructure
-→ **006-infrastructure/002-github-org-architecture.md** — GitHub organization architecture
 
 ---
 

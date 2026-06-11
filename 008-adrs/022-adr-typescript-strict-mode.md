@@ -115,12 +115,6 @@ Accepted. TypeScript 5.8.4 with strict mode (`"strict": true`) is required for a
 
 ## Cross-references
 
-→ **001-meta/001-zarishsphere-constitution.md** — Law 6 (no-code first — quality matters for non-developer users), Law 11 (longevity)
-→ **020-adr-microfrontend-architecture.md** — ADR-020: TypeScript strict in every microfrontend
-→ **019-adr-carbon-design-system.md** — ADR-019: Carbon typed components
-→ **006-adr-zero-cost-toolchain.md** — ADR-006: TypeScript is free, Apache 2.0
-→ **010-adr-gui-first-ux.md** — ADR-010: Quality UI requires type safety
-→ **007-tech-stack/003-frontend-stack.md** — Frontend technology stack with TypeScript
 
 ---
 

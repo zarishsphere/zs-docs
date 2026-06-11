@@ -18,7 +18,7 @@ tags:
   - "workflow"
 isolation_tier: "global"
 capabilities:
-  - "agent-skill: "parse_003_sop_contribution_process"
+  - "agent-skill: parse_003_sop_contribution_process"
 audience: [contributors]
 last_updated: "2026-06-08"
 ---

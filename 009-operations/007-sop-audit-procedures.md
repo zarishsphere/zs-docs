@@ -19,7 +19,7 @@ tags:
   - "verification"
 isolation_tier: "global"
 capabilities:
-  - "agent-skill: "parse_007_sop_audit_procedures"
+  - "agent-skill: parse_007_sop_audit_procedures"
 audience:
   - "contributors"
   - "deployers"

@@ -108,12 +108,6 @@ Accepted. This ADR implements Constitution Law 2 (documentation precedes existen
 
 ## Cross-references
 
-→ **001-meta/004-writing-rules.md** — ZUSS: The complete documentation standard that this ADR mandates
-→ **001-meta/001-zarishsphere-constitution.md** — Law 2 (documentation precedes existence), Law 10 (auditable decisions)
-→ **001-meta/007-agent-ecosystem-strategy.md** — AI agent consumption of Markdown docs
-→ **006-adr-zero-cost-toolchain.md** — ADR-006: Markdown is zero-cost
-→ **009-operations/001-sop-new-document-creation.md** — SOP for creating documents following this standard
-→ **004-zarish-index/003-metadata-schema.md** — YAML front matter schema design
 
 ---
 

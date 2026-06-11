@@ -17,7 +17,7 @@ tags:
   - "strategic-direction"
 isolation_tier: "global"
 capabilities:
-  - "agent-skill: "parse_004_harvesting_policy"
+  - "agent-skill: parse_004_harvesting_policy"
 audience:
   - "contributors"
   - "deployers"
@@ -637,8 +637,6 @@ All releases published to GitHub Releases with auto-generated CSV/JSON/Parquet a
 ---
 
 
-→ **005-zarish-standards/001-zarish-standards-overview.md** — Strategic direction for the ZARISH-STANDARDS 40-domain standards registry
-→ **001-meta/005-ecosystem-architecture.md** — Platform architecture, deployment model, G2A engine, and roadmap
 
 ---
 

@@ -133,15 +133,6 @@ Accepted. This ADR implements Constitution Law 11 (The platform outlives its cre
 
 ## Cross-references
 
-→ **001-meta/001-zarishsphere-constitution.md** — Law 11 (The platform outlives its creators / No single-person dependency)
-→ **009-operations/005-sop-deployment-checklist.md** — Deployment SOP with succession checks
-→ **006-infrastructure/002-github-org-architecture.md** — GitHub org access model and succession planning
-→ **006-infrastructure/005-email-architecture.md** — Email relay with documented credential rotation
-→ **006-infrastructure/006-ci-cd-architecture.md** — CI/CD pipeline design with encrypted secrets
-→ **001-meta/003-founder-profile.md** — §5.3: Current stage — sole builder context
-→ **008-adr-apache-cc-dual-license.md** — ADR-008: Apache 2.0 license enables forkability
-→ **009-adr-no-vendor-lock-in.md** — ADR-009: No vendor lock-in ensures credentials are replaceable
-→ **010-adr-gui-first-ux.md** — ADR-010: GUI-first UX for succession management interfaces
 
 ---
 

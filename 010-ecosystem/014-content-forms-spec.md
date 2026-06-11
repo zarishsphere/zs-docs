@@ -232,12 +232,6 @@ At Plane 0, form definitions ship as pre-loaded static bundles:
 
 ## 6. Cross-references
 
-→ **005-forms-spec.md** — Forms Engine that consumes these definitions
-→ **003-platform/005-fhir-architecture.md** — FHIR R5 Questionnaire resource specification
-→ **007-tech-stack/002-go-fhir-server.md** — Go FHIR server that serves Questionnaire resources
-→ **003-platform/004-g2a-engine.md** — G2A Engine that generates form definitions from standards
-→ **016-content-templates-spec.md** — Templates that include form bundles
-→ **001-meta/001-zarishsphere-constitution.md** — Law 6 (GUI-first)
 
 ---
 

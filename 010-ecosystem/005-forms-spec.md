@@ -120,11 +120,6 @@ All customizations are saved as new form versions. Original definitions remain a
 
 ## 6. Cross-references
 
-→ **003-builder-spec.md** — Form customization
-→ **004-apps-spec.md** — Forms used by apps
-→ **012-engine-spec.md** — Form engine runtime
-→ **003-platform/004-g2a-engine.md** — G2A form generation
-→ **001-meta/004-writing-rules.md** — Form ID patterns
 
 ---
 

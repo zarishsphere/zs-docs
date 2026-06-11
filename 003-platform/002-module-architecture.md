@@ -168,10 +168,6 @@ The registry is a single YAML index in the `zs-infra-module-registry` repository
 
 ## 6. Cross-references
 
-→ **001-platform-overview.md** — Platform architecture context
-→ **008-domain-registry.md** — All 40 domains
-→ **010-ecosystem/010-modules-spec.md** — Module component specification
-→ **001-meta/001-zarishsphere-constitution.md** — Law 7 (module sovereignty)
 
 ---
 

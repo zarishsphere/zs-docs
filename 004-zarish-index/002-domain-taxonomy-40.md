@@ -17,7 +17,7 @@ tags:
   - "classification"
 isolation_tier: "global"
 capabilities:
-  - "agent-skill: "parse_002_domain_taxonomy_40"
+  - "agent-skill: parse_002_domain_taxonomy_40"
 audience:
   - "contributors"
   - "deployers"

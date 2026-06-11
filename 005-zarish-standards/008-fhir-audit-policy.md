@@ -194,9 +194,6 @@ Audit review is performed through the ZarishSphere Console compliance dashboard,
 
 ## Cross-references
 
-→ **003-platform/005-fhir-architecture.md** — FHIR integration architecture
-→ **009-operations/007-sop-audit-procedures.md** — SOP for audit procedures
-→ **008-adrs/011-adr-privacy-by-architecture.md** — Privacy-by-architecture decision record
 
 ---
 

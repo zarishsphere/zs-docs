@@ -107,10 +107,6 @@ The Console runs as a fully offline PWA on Plane 0. All management functions wor
 
 ## 6. Cross-references
 
-→ **002-marketplace-spec.md** — Marketplace integration
-→ **003-builder-spec.md** — Builder integration
-→ **001-meta/005-ecosystem-architecture.md** — Ecosystem component map
-→ **003-platform/006-api-design.md** — API endpoints consumed by the Console
 
 ---
 

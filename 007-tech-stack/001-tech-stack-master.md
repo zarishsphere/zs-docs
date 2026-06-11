@@ -262,8 +262,8 @@ zarishsphere.com
   └── D1: Edge-cached read replicas of SQLite databases
 ```
 
-See → **006-infrastructure/003-cloudflare-architecture.md** for the complete infrastructure specification.
-See → **006-infrastructure/002-github-org-architecture.md** for GitHub configuration.
+See → **[006-infrastructure/003-cloudflare-architecture.md](006-infrastructure/003-cloudflare-architecture.md)** for the complete infrastructure specification.
+See → **[006-infrastructure/002-github-org-architecture.md](006-infrastructure/002-github-org-architecture.md)** for GitHub configuration.
 
 ---
 
@@ -317,8 +317,8 @@ All no-code tools use YAML or JSON declarative formats. No custom scripting lang
 | Builder UI | React 19 | GUI for creating forms and workflows |
 
 See → **[005-no-code-tools.md]** for the complete no-code specification.
-See → **010-ecosystem/003-builder-spec.md** for the Builder component specification.
-See → **010-ecosystem/005-forms-spec.md** for the Forms engine specification.
+See → **[010-ecosystem/003-builder-spec.md](010-ecosystem/003-builder-spec.md)** for the Builder component specification.
+See → **[010-ecosystem/005-forms-spec.md](010-ecosystem/005-forms-spec.md)** for the Forms engine specification.
 
 ---
 
@@ -352,23 +352,6 @@ Every technology in the stack is selected to meet the zero-cost requirement (ADR
 
 ## 9. Cross-references
 
-→ **002-go-fhir-server.md** — Go-native FHIR R5 server specification
-→ **003-frontend-stack.md** — Frontend framework and UI architecture
-→ **004-data-pipeline.md** — Data ingestion, transformation, storage
-→ **005-no-code-tools.md** — No-code and low-code tools in the ecosystem
-→ **003-platform/005-fhir-architecture.md** — FHIR R5 integration architecture
-→ **003-platform/001-platform-overview.md** — Platform architecture context
-→ **003-platform/004-g2a-engine.md** — G2A engine specification
-→ **008-adrs/001-adr-go-as-primary-language.md** — ADR for Go language decision
-→ **008-adrs/004-adr-no-hapi-fhir.md** — ADR for rejecting HAPI FHIR
-→ **008-adrs/005-adr-fhir-r5-over-r4.md** — ADR for FHIR R5
-→ **008-adrs/006-adr-zero-cost-toolchain.md** — ADR for zero-cost toolchain
-→ **001-meta/001-zarishsphere-constitution.md** — Law 11 (no JVM dependency)
-→ **010-ecosystem/001-console-spec.md** — Console frontend application
-→ **010-ecosystem/003-builder-spec.md** — Builder no-code tool
-→ **010-ecosystem/005-forms-spec.md** — Forms engine
-→ **006-infrastructure/003-cloudflare-architecture.md** — Cloudflare infrastructure
-→ **006-infrastructure/002-github-org-architecture.md** — GitHub organization architecture
 
 ---
 

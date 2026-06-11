@@ -443,16 +443,6 @@ These constraints arise from free-tier limits and directly affect platform archi
 
 ## 17. Cross-references
 
-→ **001-platform-overview.md** — Platform architecture built on zero-cost principles
-→ **003-deployment-planes.md** — Plane constraints that determine hosting requirements
-→ **006-api-design.md** — Rate limiting (all tiers free, no paid API access)
-→ **007-tech-stack/001-tech-stack-master.md** — Technology choices constrained by free-tier availability
-→ **006-infrastructure/003-cloudflare-architecture.md** — Cloudflare free tier usage
-→ **006-infrastructure/002-github-org-architecture.md** — GitHub free tier as control plane
-→ **008-adrs/006-adr-zero-cost-toolchain.md** — ADR-006: zero-cost toolchain mandate
-→ **008-adrs/002-adr-cloudflare-as-edge-platform.md** — ADR-002: Cloudflare edge platform
-→ **008-adrs/009-adr-no-vendor-lock-in.md** — ADR-009: no vendor lock-in
-→ **001-meta/001-zarishsphere-constitution.md** — Law 5 (Zero-Cost) constitutional mandate
 
 ---
 

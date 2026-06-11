@@ -159,10 +159,6 @@ HTTP status codes follow standard conventions: 200 (success), 201 (created), 400
 
 ## 8. Cross-references
 
-→ **001-platform-overview.md** — Platform architecture context
-→ **005-fhir-architecture.md** — FHIR API endpoints
-→ **010-ecosystem/008-api-spec.md** — API ecosystem component specification
-→ **007-tech-stack/001-tech-stack-master.md** — Technology stack details
 
 ---
 

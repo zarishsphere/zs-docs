@@ -116,12 +116,6 @@ Accepted. The ZarishSphere Platform frontend uses a microfrontend architecture w
 
 ## Cross-references
 
-→ **001-meta/001-zarishsphere-constitution.md** — Law 6 (No-code first), Law 7 (Module sovereignty)
-→ **019-adr-carbon-design-system.md** — ADR-019: Carbon DS as shared component library across microfrontends
-→ **010-adr-gui-first-ux.md** — ADR-010: GUI-first UX design
-→ **022-adr-typescript-strict-mode.md** — ADR-022: TypeScript strict mode for all microfrontends
-→ **007-tech-stack/003-frontend-stack.md** — Frontend technology stack
-→ **010-ecosystem/001-console-spec.md** — Console as primary microfrontend shell
 
 ---
 

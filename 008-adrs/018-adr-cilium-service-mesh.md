@@ -110,13 +110,6 @@ Accepted. Cilium 1.17.4 is the Kubernetes networking, security policy, and obser
 
 ## Cross-references
 
-→ **001-meta/001-zarishsphere-constitution.md** — Law 4 (privacy by architecture), Law 9 (vendor freedom), Law 10 (auditability)
-→ **004-adr-no-hapi-fhir.md** — ADR-004: No JVM dependency (Istio uses Envoy in C++, but control plane istiod is Go)
-→ **006-adr-zero-cost-toolchain.md** — ADR-006: Cilium is free, Apache 2.0
-→ **009-adr-no-vendor-lock-in.md** — ADR-009: Cilium is CNCF, vendor-independent
-→ **016-adr-opentofu-infrastructure-as-code.md** — ADR-016: Cilium configured via OpenTofu
-→ **017-adr-argocd-gitops.md** — ADR-017: Cilium deployed via Argo CD
-→ **006-infrastructure/001-infrastructure-overview.md** — Infrastructure architecture
 
 ---
 

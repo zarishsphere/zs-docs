@@ -104,10 +104,6 @@ Accepted. This decision is subject to ADR-009 (no vendor lock-in), which require
 
 ## Cross-references
 
-→ **001-meta/001-zarishsphere-constitution.md** — Law 5 (zero-cost), Law 9 (vendor freedom)
-→ **001-meta/003-founder-profile.md** — §4.2: Intermittent connectivity context
-→ **006-infrastructure/003-cloudflare-architecture.md** — Cloudflare architecture specification
-→ **006-infrastructure/004-domain-architecture.md** — Domain hierarchy for zarishsphere.com
 
 ---
 

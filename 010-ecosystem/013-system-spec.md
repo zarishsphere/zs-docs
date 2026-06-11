@@ -108,10 +108,6 @@ At Plane 0, the System layer is minimal:
 
 ## 5. Cross-references
 
-→ **012-engine-spec.md** — Engine that depends on the System layer
-→ **009-services-spec.md** — Services that the System supports
-→ **003-platform/003-deployment-planes.md** — System adaptation per plane
-→ **001-meta/001-zarishsphere-constitution.md** — Law 4 (emergency key destruction)
 
 ---
 

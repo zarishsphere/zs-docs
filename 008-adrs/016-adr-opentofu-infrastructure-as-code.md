@@ -108,14 +108,6 @@ Accepted. OpenTofu 1.9.1 is the Infrastructure as Code tool for all ZarishSphere
 
 ## Cross-references
 
-→ **001-meta/001-zarishsphere-constitution.md** — Law 1 (GitHub is government), Law 5 (zero cost), Law 9 (vendor freedom), Law 10 (auditability), Law 11 (longevity)
-→ **003-adr-github-as-government.md** — ADR-003: GitOps governance model
-→ **006-adr-zero-cost-toolchain.md** — ADR-006: Zero-cost compliance
-→ **009-adr-no-vendor-lock-in.md** — ADR-009: Vendor independence
-→ **017-adr-argocd-gitops.md** — ADR-017: Argo CD for Kubernetes GitOps
-→ **006-infrastructure/001-infrastructure-overview.md** — Infrastructure architecture
-→ **006-infrastructure/002-github-org-architecture.md** — GitHub organization configuration
-→ **006-infrastructure/006-ci-cd-architecture.md** — CI/CD pipeline with OpenTofu
 
 ---
 

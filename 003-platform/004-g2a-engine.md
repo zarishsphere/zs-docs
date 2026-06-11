@@ -178,12 +178,6 @@ At Plane 0, G2A runs in batch mode:
 
 ## 7. Cross-references
 
-→ **001-platform-overview.md** — Platform architecture context
-→ **005-zarish-standards/002-transformation-model.md** — ZARISH-STANDARDS transformation rules
-→ **005-zarish-standards/003-standards-schema.md** — Standards schema
-→ **005-zarish-standards/004-standards-to-platform-pipeline.md** — Pipeline specification
-→ **001-meta/001-zarishsphere-constitution.md** — Law 3 (Guideline-as-Code)
-→ **010-ecosystem/012-engine-spec.md** — Engine component specification
 
 ---
 

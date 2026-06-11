@@ -174,10 +174,6 @@ Example code, configuration templates, and form templates are Apache 2.0 unless 
 
 ## 8. Cross-references
 
-→ **001-meta/001-zarishsphere-constitution.md** — Law 5 (zero cost), Law 12 (permanent free tier)
-→ **001-foundation-charter.md** — Foundation obligations on licensing
-→ **002-governance-model.md** — How licensing decisions are made
-→ **004-contributor-guidelines.md** — How contributors license their work
 
 ---
 

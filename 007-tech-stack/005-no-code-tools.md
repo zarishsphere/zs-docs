@@ -619,7 +619,6 @@ zs-marketplace-listing:
 | Git clone | Clone module repository | Plane 2+ |
 | Pre-loaded distribution | Module included in distribution bundle | All planes |
 
-→ **010-ecosystem/002-marketplace-spec.md** — Complete Marketplace specification
 
 ---
 
@@ -686,16 +685,6 @@ Validation schemas are bundled with the engine binary:
 
 ## 9. Cross-references
 
-→ **001-tech-stack-master.md** — Master tech stack with no-code overview
-→ **010-ecosystem/003-builder-spec.md** — Builder GUI specification
-→ **010-ecosystem/002-marketplace-spec.md** — Marketplace specification
-→ **010-ecosystem/005-forms-spec.md** — Forms engine specification
-→ **010-ecosystem/012-engine-spec.md** — Engine runtime for workflows
-→ **003-frontend-stack.md** — Frontend rendering of forms and Builder UI
-→ **004-data-pipeline.md** — Dashboard definition data flow
-→ **005-zarish-standards/002-transformation-model.md** — Standards-to-forms pipeline
-→ **008-adrs/006-adr-zero-cost-toolchain.md** — Zero-cost toolchain requirement
-→ **008-adrs/010-adr-gui-first-ux.md** — ADR for GUI-first UX
 
 ---
 

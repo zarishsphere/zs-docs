@@ -16,7 +16,8 @@ tags:
   - "schema"
   - "data-model"
 isolation_tier: "global"
-capabilities: [agent-skill: "parse_003_metadata_schema]
+capabilities:
+  - "agent-skill: parse_003_metadata_schema"
 audience:
   - "contributors"
   - "deployers"

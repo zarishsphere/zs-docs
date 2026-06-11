@@ -100,11 +100,6 @@ At Plane 0, the Engine runs in standalone mode:
 
 ## 5. Cross-references
 
-→ **013-system-spec.md** — System layer beneath the Engine
-→ **003-platform/004-g2a-engine.md** — G2A Engine detailed spec
-→ **005-forms-spec.md** — Form engine detailed spec
-→ **009-services-spec.md** — Services that support the Engine
-→ **003-platform/003-deployment-planes.md** — Engine adaptation per plane
 
 ---
 

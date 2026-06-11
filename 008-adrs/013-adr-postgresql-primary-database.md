@@ -110,13 +110,6 @@ Accepted. This ADR applies to all ZarishSphere Platform deployment planes (Plane
 
 ## Cross-references
 
-→ **001-meta/001-zarishsphere-constitution.md** — Law 5 (zero cost), Law 11 (platform outlives its creators)
-→ **005-adr-fhir-r5-over-r4.md** — ADR-005: FHIR R5 decisions affect resource storage patterns
-→ **006-adr-zero-cost-toolchain.md** — ADR-006: Zero-cost compliance for all tools
-→ **009-adr-no-vendor-lock-in.md** — ADR-009: PostgreSQL BSD license ensures vendor freedom
-→ **003-platform/007-data-model.md** — Core data entities and identifier patterns
-→ **007-tech-stack/001-tech-stack-master.md** — Master technology stack mapping
-→ **007-tech-stack/004-data-pipeline.md** — Data pipeline stack specification
 
 ---
 

@@ -130,9 +130,6 @@ Accepted. This ADR applies to all current and future dependencies. Every new too
 
 ## Cross-references
 
-→ **001-meta/001-zarishsphere-constitution.md** — Law 5 (zero-cost structural guarantee), Law 8 (plane sovereignty), Law 9 (vendor freedom)
-→ **001-meta/003-founder-profile.md** — §5.5: Non-negotiable zero-cost requirement
-→ **007-tech-stack/001-tech-stack-master.md** — Complete zero-cost tech stack mapping
 
 ---
 

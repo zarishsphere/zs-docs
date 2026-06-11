@@ -310,13 +310,6 @@ At Plane 0:
 
 ## 8. Cross-references
 
-→ **001-console-spec.md** — Console dashboard view that displays reports
-→ **012-engine-spec.md** — Report engine that renders reports
-→ **013-system-spec.md** — System monitoring and audit logs
-→ **010-modules-spec.md** — Modules that supply report data
-→ **014-content-forms-spec.md** — Forms that feed data into reports
-→ **005-forms-spec.md** — Form engine that collects report source data
-→ **001-meta/001-zarishsphere-constitution.md** — Law 6 (GUI-first)
 
 ---
 

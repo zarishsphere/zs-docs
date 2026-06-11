@@ -102,10 +102,6 @@ Specifications are version-controlled and published through CI/CD.
 
 ## 6. Cross-references
 
-→ **006-sdk-spec.md** — SDK wrappers for the API
-→ **007-cli-spec.md** — CLI that consumes the API
-→ **009-services-spec.md** — Services exposed through the API
-→ **003-platform/006-api-design.md** — API design principles
 
 ---
 

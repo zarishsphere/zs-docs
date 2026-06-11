@@ -17,7 +17,7 @@ tags:
   - "automation"
 isolation_tier: "global"
 capabilities:
-  - "agent-skill: "parse_005_sop_deployment_checklist"
+  - "agent-skill: parse_005_sop_deployment_checklist"
 audience:
   - "contributors"
   - "deployers"

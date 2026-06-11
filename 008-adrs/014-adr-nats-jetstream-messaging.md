@@ -110,13 +110,6 @@ Accepted. NATS JetStream is the messaging backbone for all ZarishSphere Platform
 
 ## Cross-references
 
-→ **001-meta/001-zarishsphere-constitution.md** — Law 5 (zero cost), Law 9 (vendor freedom), Law 10 (auditability)
-→ **001-adr-go-as-primary-language.md** — ADR-001: Go backend with nats.go client
-→ **004-adr-no-hapi-fhir.md** — ADR-004: No JVM dependency (Kafka rejected on this basis)
-→ **006-adr-zero-cost-toolchain.md** — ADR-006: Zero-cost compliance verified
-→ **009-adr-no-vendor-lock-in.md** — ADR-009: NATS is replaceable
-→ **003-platform/005-fhir-architecture.md** — FHIR R5 subscription integration
-→ **003-platform/006-api-design.md** — API design for event-driven patterns
 
 ---
 

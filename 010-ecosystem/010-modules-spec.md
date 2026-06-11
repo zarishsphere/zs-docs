@@ -104,10 +104,6 @@ Each module contains:
 
 ## 5. Cross-references
 
-→ **003-platform/002-module-architecture.md** — Module architecture rules
-→ **004-apps-spec.md** — Apps built on modules
-→ **011-distributions-spec.md** — Distributions that bundle modules
-→ **003-platform/008-domain-registry.md** — 40-domain taxonomy
 
 ---
 

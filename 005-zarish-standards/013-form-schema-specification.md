@@ -325,8 +325,6 @@ Forms MAY include `calculatedFields` for auto-computed values and `logic` for cr
 
 ## Cross-references
 
-→ **010-ecosystem/005-forms-spec.md** — Forms engine component specification
-→ **010-ecosystem/014-content-forms-spec.md** — Forms content repository specification
 
 ---
 

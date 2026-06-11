@@ -305,8 +305,6 @@ OpenAPI specifications MUST be structured to support client code generation:
 
 ## Cross-references
 
-→ **003-platform/006-api-design.md** — Platform-level API design principles
-→ **010-ecosystem/008-api-spec.md** — Ecosystem API component specification
 
 ---
 

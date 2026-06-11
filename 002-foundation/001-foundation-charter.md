@@ -168,12 +168,6 @@ Amendments to this charter follow the constitutional amendment process defined i
 
 ## 9. Cross-references
 
-→ **001-meta/001-zarishsphere-constitution.md** — Supreme governing document, 12 laws
-→ **001-meta/002-zarishsphere-profile.md** — Foundation identity, vision, and operating constraints
-→ **002-governance-model.md** — Decision-making model for the Foundation
-→ **003-licensing-policy.md** — Dual licensing: Apache 2.0 and CC BY 4.0
-→ **004-contributor-guidelines.md** — How anyone can contribute to any project
-→ **001-meta/005-ecosystem-architecture.md** — Complete ecosystem map
 
 ---
 

@@ -109,13 +109,6 @@ Accepted. Argo CD 2.14.10 is the GitOps deployment engine for all ZarishSphere P
 
 ## Cross-references
 
-→ **001-meta/001-zarishsphere-constitution.md** — Law 1 (GitHub is government), Law 6 (No-code first), Law 10 (auditability)
-→ **003-adr-github-as-government.md** — ADR-003: GitHub as governance control plane
-→ **006-adr-zero-cost-toolchain.md** — ADR-006: Argo CD is free, Apache 2.0
-→ **009-adr-no-vendor-lock-in.md** — ADR-009: Argo CD is CNCF, vendor-independent
-→ **016-adr-opentofu-infrastructure-as-code.md** — ADR-016: OpenTofu for infrastructure
-→ **006-infrastructure/006-ci-cd-architecture.md** — CI/CD pipeline integration
-→ **006-infrastructure/002-github-org-architecture.md** — GitHub organization configuration
 
 ---
 

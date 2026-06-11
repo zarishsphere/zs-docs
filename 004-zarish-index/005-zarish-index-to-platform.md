@@ -17,7 +17,7 @@ tags:
   - "pipeline"
 isolation_tier: "global"
 capabilities:
-  - "agent-skill: "parse_005_zarish_index_to_platform"
+  - "agent-skill: parse_005_zarish_index_to_platform"
 audience:
   - "contributors"
   - "deployers"

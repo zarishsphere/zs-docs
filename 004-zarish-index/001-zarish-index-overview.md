@@ -18,7 +18,7 @@ tags:
   - "standards-index"
 isolation_tier: "global"
 capabilities:
-  - "agent-skill: "parse_001_zarish_index_overview"
+  - "agent-skill: parse_001_zarish_index_overview"
 audience:
   - "contributors"
   - "deployers"

@@ -116,11 +116,6 @@ Accepted. All existing and future repositories under the `zarishsphere` GitHub o
 
 ## Cross-references
 
-→ **002-foundation/003-licensing-policy.md** — Licensing policy document
-→ **002-foundation/001-foundation-charter.md** — Foundation charter
-→ **001-meta/001-zarishsphere-constitution.md** — Law 5 (zero-cost guarantee), Law 9 (vendor freedom)
-→ **006-adr-zero-cost-toolchain.md** — ADR-006: Zero-cost toolchain (licenses are zero-cost)
-→ **007-adr-markdown-first-documentation.md** — ADR-007: Documentation format using CC BY
 
 ---
 

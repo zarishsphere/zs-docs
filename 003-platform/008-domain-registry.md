@@ -131,10 +131,6 @@ The architecture supports 100+ domains. The 40-domain startup is the minimum via
 
 ## 5. Cross-references
 
-→ **001-platform-overview.md** — Platform architecture context
-→ **002-module-architecture.md** — How modules map to domains
-→ **004-zarish-index/002-domain-taxonomy-40.md** — ZARISH-INDEX domain taxonomy (detailed)
-→ **001-meta/001-zarishsphere-constitution.md** — Constitutional basis for domain scope
 
 ---
 

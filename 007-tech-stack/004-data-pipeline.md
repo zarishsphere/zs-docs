@@ -549,17 +549,6 @@ zs-etl archive verify --archive=2025-observations.parquet
 
 ## 9. Cross-references
 
-→ **001-tech-stack-master.md** — Master tech stack with data pipeline overview
-→ **002-go-fhir-server.md** — FHIR server that supplies clinical data
-→ **003-platform/005-fhir-architecture.md** — FHIR resource model for ETL mapping
-→ **003-platform/007-data-model.md** — Core data entities and identifiers
-→ **003-platform/004-g2a-engine.md** — G2A engine that produces transformable data
-→ **008-adrs/001-adr-go-as-primary-language.md** — Go as ETL language
-→ **008-adrs/006-adr-zero-cost-toolchain.md** — Zero-cost pipeline constraint
-→ **010-ecosystem/001-console-spec.md** — Console reporting dashboard
-→ **010-ecosystem/012-engine-spec.md** — Engine integration with pipeline
-→ **004-zarish-index/001-zarish-index-overview.md** — ZARISH-INDEX data source
-→ **005-zarish-standards/001-zarish-standards-overview.md** — Standards as pipeline input
 
 ---
 

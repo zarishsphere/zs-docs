@@ -311,7 +311,6 @@ Form Definition (YAML/JSON)  →  Questionnaire Resource  →  QuestionnaireResp
 
 ### 5.4 Cross-reference
 
-→ **010-ecosystem/005-forms-spec.md** — Complete forms engine specification
 
 ---
 
@@ -474,15 +473,6 @@ See → **010-ecosystem/001-console-spec.md** for the complete Console specifica
 
 ## 9. Cross-references
 
-→ **001-tech-stack-master.md** — Master tech stack with frontend rationale
-→ **010-ecosystem/001-console-spec.md** — Console management center specification
-→ **010-ecosystem/005-forms-spec.md** — Forms engine specification
-→ **010-ecosystem/003-builder-spec.md** — Builder UI specification
-→ **010-ecosystem/002-marketplace-spec.md** — Marketplace specification
-→ **004-data-pipeline.md** — Reporting data sources
-→ **003-platform/001-platform-overview.md** — Platform architecture context
-→ **008-adrs/010-adr-gui-first-ux.md** — ADR for GUI-first UX requirement
-→ **008-adrs/007-adr-markdown-first-documentation.md** — Markdown-first documentation
 
 ---
 

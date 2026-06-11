@@ -110,11 +110,6 @@ Accepted. This decision is mandated by the 8 GB RAM constraint and is referenced
 
 ## Cross-references
 
-→ **001-meta/001-zarishsphere-constitution.md** — Law 11 (8 GB RAM constraint), Law 5 (zero-cost), Law 8 (plane sovereignty)
-→ **001-meta/003-founder-profile.md** — §4.1: Hardware constraints (8 GB RAM, no Java)
-→ **003-platform/005-fhir-architecture.md** — FHIR R5 integration architecture
-→ **007-tech-stack/002-go-fhir-server.md** — Go FHIR server specification
-→ **010-ecosystem/006-sdk-spec.md** — SDK integration with FHIR server
 
 ---
 

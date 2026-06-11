@@ -313,12 +313,6 @@ At Plane 0:
 
 ## 7. Cross-references
 
-→ **011-distributions-spec.md** — Distribution specification that packages templates
-→ **003-platform/003-deployment-planes.md** — Plane specifications for template targeting
-→ **010-modules-spec.md** — Modules referenced in templates
-→ **014-content-forms-spec.md** — Forms bundled in templates
-→ **015-content-protocols-spec.md** — Protocols bundled in templates
-→ **001-meta/001-zarishsphere-constitution.md** — Law 4 (Plane 0 compliance)
 
 ---
 

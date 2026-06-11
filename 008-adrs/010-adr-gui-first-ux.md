@@ -112,14 +112,6 @@ Accepted. This ADR implements Constitution Law 6 (no-code first) and is the UX d
 
 ## Cross-references
 
-→ **001-meta/001-zarishsphere-constitution.md** — Law 6 (no-code first / GUI-first)
-→ **001-meta/003-founder-profile.md** — §6.2: Founder's GUI-first working preference
-→ **010-ecosystem/001-console-spec.md** — Console specification (primary interface)
-→ **010-ecosystem/007-cli-spec.md** — CLI specification (secondary, explicitly marked)
-→ **010-ecosystem/003-builder-spec.md** — Builder (no-code GUI for creating modules)
-→ **010-ecosystem/005-forms-spec.md** — Dynamic forms engine (GUI-generated forms)
-→ **007-tech-stack/003-frontend-stack.md** — React 19.3.0 / Next.js 15.3.1 frontend stack
-→ **009-adr-no-vendor-lock-in.md** — ADR-009: GUI is framework-agnostic at interface level
 
 ---
 

@@ -112,10 +112,6 @@ The GitHub integration is optional. Builder outputs can be downloaded and used o
 
 ## 5. Cross-references
 
-→ **001-console-spec.md** — Console-based access to Builder
-→ **005-forms-spec.md** — Form engine that renders Builder outputs
-→ **004-apps-spec.md** — Apps built with the Builder
-→ **001-meta/001-zarishsphere-constitution.md** — Law 6 (GUI-first), Law 1 (GitHub as government)
 
 ---
 

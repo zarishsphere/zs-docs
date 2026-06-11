@@ -222,9 +222,6 @@ Deployers own their configuration and data. The Foundation operates the infrastr
 
 ## 8. Cross-references
 
-→ **001-platform-overview.md** — Platform architecture context
-→ **006-infrastructure/INDEX.md*** — Detailed infrastructure specifications
-→ **001-meta/001-zarishsphere-constitution.md** — Law 4 (Plane 0 compliance)
 
 ---
 

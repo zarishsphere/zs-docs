@@ -158,12 +158,6 @@ Exports are generated through the Console (GUI) or API (automated).
 
 ## 6. Cross-references
 
-→ **001-platform-overview.md** — Platform architecture context
-→ **005-fhir-architecture.md** — FHIR resource model
-→ **006-api-design.md** — API access patterns
-→ **002-module-architecture.md** — Module data isolation
-→ **001-meta/001-zarishsphere-constitution.md** — Law 8 (data portability), Law 4 (emergency key destruction)
-→ **001-meta/006-glossary.md** — ZS-UID definition
 
 ---
 

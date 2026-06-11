@@ -270,8 +270,6 @@ For searches returning more than 10,000 matching resources, the server SHOULD re
 
 ## Cross-references
 
-→ **003-platform/005-fhir-architecture.md** — Platform-level FHIR architecture
-→ **007-tech-stack/002-go-fhir-server.md** — Go-native FHIR server implementation with search indexing
 
 ---
 

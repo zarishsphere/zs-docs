@@ -17,7 +17,7 @@ tags:
   - "workflow"
 isolation_tier: "global"
 capabilities:
-  - "agent-skill: "parse_001_sop_new_document_creation"
+  - "agent-skill: parse_001_sop_new_document_creation"
 audience:
   - "contributors"
   - "ai-agents"
@@ -109,8 +109,8 @@ Insert the following block at the very top of the file (between `---` delimiters
 id: "ZS-NNN-DESCRIPTOR"      # e.g., "ZS-004-SOP" — see pattern below
 title: "nnn descriptive title"  # e.g., "004 sop backup recovery"
 domain: "NNN-folder"           # e.g., "009-operations"
-doc-type: "sop"                # one of: sop, spec, reference, adr, index, normative standard
-entity-type: "procedure"       # one of: procedure, specification, index, rulebook, profile, glossary
+doc-type: "sop"
+entity-type: "procedure"
 summary: >-
   One paragraph describing the document's purpose. This appears in INDEX.md and llms.txt.
 tags:
@@ -121,7 +121,7 @@ status: "stable"                # use "draft" for new files
 last_updated: "2026-06-10"    # today's date in YYYY-MM-DD
 isolation_tier: "global"       # global, foundation, platform, internal
 capabilities:
-  - "agent-skill: "parse_nnn_file_name"
+  - "agent-skill: parse_nnn_file_name"
 audience:
   - "contributors"
   - "ai-agents"                # or "deployers", "all"

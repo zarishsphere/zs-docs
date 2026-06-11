@@ -17,7 +17,7 @@ tags:
   - "validation"
 isolation_tier: "global"
 capabilities:
-  - "agent-skill: "parse_004_sop_zuss_compliance_audit"
+  - "agent-skill: parse_004_sop_zuss_compliance_audit"
 audience:
   - "contributors"
   - "ai-agents"

@@ -105,10 +105,6 @@ All Marketplace items are open-source:
 
 ## 6. Cross-references
 
-→ **001-console-spec.md** — Console marketplace view
-→ **011-distributions-spec.md** — Distribution listings
-→ **010-modules-spec.md** — Module listings
-→ **001-meta/005-ecosystem-architecture.md** — Ecosystem component map
 
 ---
 

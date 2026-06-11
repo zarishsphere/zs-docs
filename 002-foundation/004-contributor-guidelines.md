@@ -197,11 +197,6 @@ Violations should be reported via GitHub issue to the repository maintainer. Dur
 
 ## 8. Cross-references
 
-→ **001-foundation-charter.md** — Foundation mission and scope
-→ **002-governance-model.md** — How governance decisions are made
-→ **003-licensing-policy.md** — How contributions are licensed
-→ **001-meta/004-writing-rules.md** — ZUSS: formatting and naming rules all contributors must follow
-→ **001-meta/007-agent-ecosystem-strategy.md** — AI agent contribution considerations
 
 ---
 

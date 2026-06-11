@@ -272,14 +272,6 @@ At Plane 0, the FHIR Hub is not required because there are no external systems t
 
 ## 8. Cross-references
 
-→ **003-platform/005-fhir-architecture.md** — FHIR R5 architecture that the hub connects to
-→ **007-tech-stack/002-go-fhir-server.md** — Go FHIR server that the hub proxies to
-→ **008-api-spec.md** — API specifications for the hub endpoints
-→ **008-adrs/005-adr-fhir-r5-over-r4.md** — ADR-005 mandating FHIR R5
-→ **013-system-spec.md** — System audit infrastructure
-→ **009-services-spec.md** — Services that support hub operations
-→ **008-adrs/004-adr-no-hapi-fhir.md** — ADR-004 rejecting HAPI FHIR (Java)
-→ **001-meta/001-zarishsphere-constitution.md** — Law 4 (emergency key revocation), Law 11 (no JVM dependencies)
 
 ---
 

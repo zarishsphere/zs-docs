@@ -123,10 +123,6 @@ Accepted. This ADR is structurally enforced in the architecture: the `platform/i
 
 ## Cross-references
 
-→ **001-meta/001-zarishsphere-constitution.md** — Law 9 (vendor freedom), Law 8 (plane sovereignty), Law 11 (forkability)
-→ **003-platform/003-deployment-planes.md** — Plane 0-5 specifications (drives abstraction requirements)
-→ **006-infrastructure/003-cloudflare-architecture.md** — Cloudflare architecture (the Cloudflare implementation)
-→ **002-foundation/003-licensing-policy.md** — Apache 2.0 enables forking with alternative infrastructure
 
 ---
 

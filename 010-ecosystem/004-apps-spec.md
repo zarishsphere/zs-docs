@@ -208,7 +208,7 @@ Tracks childhood immunization schedules per WHO/EPI guidelines. Records doses, g
 - **Workflows:** Overdue reminder, stock level alert
 - **Dashboards:** Coverage by antigen, dropout rate, stock status
 - **Target planes:** 0-4 (full offline support at Plane 0)
-- **Cross-ref:** → **010-modules-spec.md** — depends on `health-common` and `immunization` modules
+- **Cross-ref:** → **[010-modules-spec.md](010-modules-spec.md)** — depends on `health-common` and `immunization` modules
 
 ### Nutrition Screening
 
@@ -218,7 +218,7 @@ Screens children under 5 for acute malnutrition using MUAC, weight-for-height, a
 - **Workflows:** Positive referral, default tracer
 - **Dashboards:** MUAC trend, admission vs discharge, cure rate
 - **Target planes:** 0-4
-- **Cross-ref:** → **005-forms-spec.md** — form engine rendering screening forms
+- **Cross-ref:** → **[005-forms-spec.md](005-forms-spec.md)** — form engine rendering screening forms
 
 ### Supply Chain Monitor
 
@@ -346,13 +346,6 @@ No code editing required at any step. Customized apps retain compatibility with 
 
 ## 11. Cross-references
 
-→ **003-builder-spec.md** — App customization via Builder
-→ **005-forms-spec.md** — Form engine rendering app forms
-→ **010-modules-spec.md** — Modules that apps depend on
-→ **002-marketplace-spec.md** — App discovery and installation
-→ **001-console-spec.md** — Console for app management
-→ **001-meta/001-zarishsphere-constitution.md** — Law 7 (module sovereignty)
-→ **003-platform/003-deployment-planes.md** — Plane specifications for app deployment
 
 ---
 

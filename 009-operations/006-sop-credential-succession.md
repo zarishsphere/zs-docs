@@ -20,7 +20,7 @@ tags:
   - "access"
 isolation_tier: "global"
 capabilities:
-  - "agent-skill: "parse_006_sop_credential_succession"
+  - "agent-skill: parse_006_sop_credential_succession"
 audience:
   - "contributors"
   - "deployers"

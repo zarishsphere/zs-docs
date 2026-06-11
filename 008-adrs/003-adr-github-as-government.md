@@ -102,13 +102,6 @@ Accepted. This is the operational foundation of the ecosystem — directly imple
 
 ## Cross-references
 
-→ **001-meta/001-zarishsphere-constitution.md** — Law 1 (GitHub is the government), Law 10 (every decision is auditable forever), Law 12 (borderless contribution)
-→ **006-adr-zero-cost-toolchain.md** — ADR-006: GitHub free tier used
-→ **006-infrastructure/002-github-org-architecture.md** — GitHub org architecture specification
-→ **006-infrastructure/006-ci-cd-architecture.md** — CI/CD pipeline design
-→ **009-operations/002-sop-github-workflow.md** — SOP for GitHub workflow
-→ **001-meta/007-agent-ecosystem-strategy.md** — AI agent integration with GitHub
-→ **002-foundation/002-governance-model.md** — Governance model for the Foundation
 
 ---
 

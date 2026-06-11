@@ -115,11 +115,6 @@ Accepted. This decision is closely coupled with ADR-004 (no HAPI FHIR) — R5's 
 
 ## Cross-references
 
-→ **001-meta/001-zarishsphere-constitution.md** — Law 3 (every standard is executable, FHIR is the data standard), Law 11 (8 GB RAM constraint)
-→ **003-platform/005-fhir-architecture.md** — FHIR R5 architecture specification
-→ **003-platform/002-module-architecture.md** — Module architecture using FHIR R5 as data model
-→ **007-tech-stack/002-go-fhir-server.md** — Go FHIR R5 server specification
-→ **004-zarish-index/002-domain-taxonomy-40.md** — 40-domain taxonomy that R5 resources map to
 
 ---
 
