@@ -2,7 +2,7 @@
 
 **What this is:** Documentation-only repo (`zarishsphere/zs-docs`). No code, no tests, no build steps. **117 markdown documents** across 10 folders — single source of truth for ZarishSphere Foundation governance, Platform architecture, ZARISH-INDEX, ZARISH-STANDARDS, infrastructure, tech stack, ADRs, operations, and ecosystem components.
 
-**Current status:** 117 primary documents (117 `stable`, 0 `draft`) with substantive content (0 skeleton). 11 INDEX.md files are `status: stable`. Repo is **not yet initialized as a git repo** — no `.git/` directory, nothing pushed to GitHub.
+**Current status:** 117 primary documents (117 `stable`, 0 `draft`) with substantive content (0 skeleton). 11 INDEX.md files are `status: stable`. Repo is initialized and pushed to **github.com/zarishsphere/zs-docs** (`main` branch, 165 files, 40,112 lines).
 
 ## Agent memory snapshot (June 11, 2026 — post-Phase N completion)
 
@@ -97,7 +97,7 @@ All skills live under `.opencode/skills/`. Load the `meta` skill first (constitu
 
 ## Repo-specific gotchas
 
-- **No .git directory yet** — this repo has never been initialized or pushed. Init with `git init` when ready.
+- **Git remote:** `origin` → `github.com/zarishsphere/zs-docs.git` (`main` branch). Init with `git clone` for fresh copies.
 - **Single ecosystem:** All agents are under `.opencode/agents/`. All skills under `.opencode/skills/`. No duplicate environments.
 - **Scripts are documentation-only:** The scripts in `scripts/` only validate documentation folders (001-010). They never modify `.opencode/` or any agent/skill/MCP files.
 - **`session-ses_*.md`** files at root are transient session logs. Ignore or delete with `mv <path> /tmp/trash`; never commit.

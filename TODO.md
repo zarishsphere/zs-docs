@@ -370,9 +370,9 @@
 
 ## Repository initialization tasks
 
-- [ ] `git init` in zs-docs (repo root)
-- [ ] Create `zarishsphere/zs-docs` repository on GitHub (public, no template)
-- [ ] Push all 117 documents, INDEX.md files, and validation scripts
+- [x] `git init` in zs-docs (repo root)
+- [x] Create `zarishsphere/zs-docs` repository on GitHub (public, no template)
+- [x] Push all 117 documents, INDEX.md files, and validation scripts — **165 files, 40,112 lines**
 - [ ] Create `zarishsphere/zs-zarish-index` repository (Phase D complete)
 - [ ] Create `zarishsphere/zs-zarish-standards` repository (Phase E complete)
 
@@ -434,7 +434,8 @@
 - [ ] Set up 90-day review reminder
 - [ ] Create review verification template
 - [x] Run validation scripts before commits
-- [~] Push to GitHub — **next step after validation**
+- [x] Push to GitHub — **completed June 11, 2026**
+- [ ] Enable GitHub Pages for public llms.txt hosting
 
 ---
 
